@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <title>Testem Runner</title>
+  <link rel="stylesheet" href="components/jasmine/lib/jasmine-core/jasmine.css">
+  <script src="components/jasmine/lib/jasmine-core/jasmine.js"></script>
+  <script src="components/jasmine/lib/jasmine-core/jasmine-html.js"></script>
+</head>
+
+<body>
+  <div id="jasmine_content"></div>
+
+  <script src="components/jquery/jquery.js"></script>
+  <script src="jquery.simplestpreloader.js"></script>
+  <script src="tests/index.js"></script>
+  <script>
+    var jasmineEnv = jasmine.getEnv();
+    jasmineEnv.addReporter(new jasmine.HtmlReporter)
+    window.onload = function() {
+      jasmineEnv.execute();
+    };
+  </script>
+</body>
+</html>
