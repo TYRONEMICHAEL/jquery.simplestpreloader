@@ -1,6 +1,6 @@
 # jquery.simplestpreloader
 
-<p class="tagline">World's easiest and simplest jQuery image preloader plugin based on promises.</p>
+<p class="tagline">World's easiest and smallest jQuery image preloader plugin  based on promises.</p>
 
 [TyroneMichael/jquery.simplestpreloader](https://github.com/TyroneMichael/jquery.simplestpreloader)
 
@@ -10,8 +10,8 @@
 
 Grab the source file:
 
-+ [jquery.simplestpreloader.min.js](https://github.com/TyroneMichael/jquery.simplestpreloader/jquery.simplestpreloader.min.js)
-+ [jquery.simplestpreloader.js](https://github.com/TyroneMichael/jquery.simplestpreloader/jquery.simplestpreloader.js)
++ [jquery.simplestpreloader.min.js](https://github.com/TyroneMichael/jquery.simplestpreloader/blob/master/jquery.simplestpreloader.min.js)
++ [jquery.simplestpreloader.js](https://github.com/TyroneMichael/jquery.simplestpreloader/blob/master/jquery.simplestpreloader.js)
 
 ## Usage
 
