@@ -17,7 +17,7 @@ Grab the source file:
 
 ``` js
   // Declare an array populated with the urls of the images you wish to load
-  var imageUrlsToLoad = ["http://placekitten.com/200/300", "http://placekitten.com/1500/1500", "http://placekitten.com/200/300"], "http://resource.does.not.exist.co.za", "http://placekitten.com/200/300"];
+  var imageUrlsToLoad = ["http://placekitten.com/200/300", "http://placekitten.com/1500/1500", "http://placekitten.com/200/300"];
 
   // Initiate preload
   var preloader = $(images).simplestImagePreloader();
@@ -53,3 +53,8 @@ Grab the source file:
     // Some images might have failed to load
   });
 ```
+
+## Developers
+
+    $ git clone https://github.com/TyroneMichael/jquery.simplestpreloader.git
+    $ bower install
