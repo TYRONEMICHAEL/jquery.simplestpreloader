@@ -20,7 +20,7 @@ Grab the source file:
   var imageUrlsToLoad = ["http://placekitten.com/200/300", "http://placekitten.com/1500/1500", "http://placekitten.com/200/300"];
 
   // Initiate preload
-  var preloader = $(images).simplestImagePreloader();
+  var preloader = $(imageUrlsToLoad).simplestImagePreloader();
   
   // All images have loaded successfully
   preloader.done(function() {
